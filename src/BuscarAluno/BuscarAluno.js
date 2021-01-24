@@ -24,7 +24,7 @@ class BuscarAluno extends React.Component {
         console.log(this.state.alunos)
         if (this.state.alunos.length > 0) {
             var listItems = this.state.alunos.map((aluno, index) =>
-                <li key={index} style={{fontSize:16}}><b>{aluno.numero}</b> - {aluno.nome} - Caixa: {aluno.caixa} </li>
+                <li key={index} style={{fontSize:12}}><b>{aluno.numero}</b> - {aluno.nome} - Caixa: {aluno.caixa} </li>
             )
             return (
                 <ul style={{textAlign: 'left', listStyleType: "-moz-initial", listStylePosition: "inside", padding: 0 }}>{listItems}</ul>
