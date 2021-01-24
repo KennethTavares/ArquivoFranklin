@@ -6,7 +6,7 @@ class BuscarAluno extends React.Component {
         super(props);
 
         this.state = {
-            nome: 'alicia',
+            nome: '',
             isLoading: false,
             alunos: [],
             erro: '',
